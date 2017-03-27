@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"github.com/aiyi/go-user/db"
+	"github.com/qiuchengw/go-user/db"
 )
 
 // 绑定手机(一般在认证后进行操作).

@@ -3,8 +3,8 @@ package model
 import (
 	"time"
 
-	"github.com/aiyi/go-user/db"
-	"github.com/aiyi/go-user/userid"
+	"github.com/qiuchengw/go-user/db"
+	"github.com/qiuchengw/go-user/userid"
 )
 
 // 通过 微博 注册一个账户.

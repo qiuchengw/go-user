@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/aiyi/go-user/db"
+	"github.com/qiuchengw/go-user/db"
 )
 
 // 绑定手机新注册账户到指定账户, 密码以指定账户为准.

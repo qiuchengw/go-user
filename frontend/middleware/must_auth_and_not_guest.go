@@ -7,10 +7,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang/glog"
 
-	"github.com/aiyi/go-user/frontend/errors"
-	"github.com/aiyi/go-user/frontend/session"
-	"github.com/aiyi/go-user/frontend/token"
-	"github.com/aiyi/go-user/model"
+	"github.com/qiuchengw/go-user/frontend/errors"
+	"github.com/qiuchengw/go-user/frontend/session"
+	"github.com/qiuchengw/go-user/frontend/token"
+	"github.com/qiuchengw/go-user/model"
 )
 
 // 检查客户端是否是认证状态, 并且不是 guest 认证.

@@ -3,7 +3,7 @@ package mc
 import (
 	"errors"
 
-	"github.com/aiyi/go-user/config"
+	"github.com/qiuchengw/go-user/config"
 )
 
 func getServerList() ([]string, error) {

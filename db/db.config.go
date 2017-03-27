@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/aiyi/go-user/config"
+	"github.com/qiuchengw/go-user/config"
 )
 
 func getDSN() (string, error) {

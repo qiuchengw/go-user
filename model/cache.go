@@ -6,8 +6,8 @@ import (
 
 	"github.com/bradfitz/gomemcache/memcache"
 
-	"github.com/aiyi/go-user/db"
-	"github.com/aiyi/go-user/mc"
+	"github.com/qiuchengw/go-user/db"
+	"github.com/qiuchengw/go-user/mc"
 )
 
 // 从缓存里获取 user 信息, 如果没有找到返回 ErrNotFound.

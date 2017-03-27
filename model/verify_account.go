@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/aiyi/go-user/db"
+	"github.com/qiuchengw/go-user/db"
 )
 
 // 确认邮箱注册新账户

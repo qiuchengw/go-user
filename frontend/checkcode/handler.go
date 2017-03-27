@@ -5,9 +5,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang/glog"
 
-	"github.com/aiyi/go-user/frontend/errors"
-	"github.com/aiyi/go-user/frontend/session"
-	"github.com/aiyi/go-user/frontend/token"
+	"github.com/qiuchengw/go-user/frontend/errors"
+	"github.com/qiuchengw/go-user/frontend/session"
+	"github.com/qiuchengw/go-user/frontend/token"
 )
 
 // 申请发送一个校验码到手机.

@@ -5,10 +5,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang/glog"
 
-	"github.com/aiyi/go-user/config"
-	"github.com/aiyi/go-user/frontend/errors"
-	"github.com/aiyi/go-user/frontend/session"
-	"github.com/aiyi/go-user/frontend/token"
+	"github.com/qiuchengw/go-user/config"
+	"github.com/qiuchengw/go-user/frontend/errors"
+	"github.com/qiuchengw/go-user/frontend/session"
+	"github.com/qiuchengw/go-user/frontend/token"
 )
 
 // 获取请求用户授权的参数(appid, state, scope)

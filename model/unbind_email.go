@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"github.com/aiyi/go-user/db"
+	"github.com/qiuchengw/go-user/db"
 )
 
 // 解绑邮箱认证.

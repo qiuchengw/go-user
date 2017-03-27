@@ -27,7 +27,7 @@ https://github.com/golang/go/commit/40457745e51eb327751de5be4c69c9079db69f66
 }
 ```
 通过 err_code 来判断，详细的 err_code 请移步到:  
-https://github.com/aiyi/go-user/blob/master/frontend/errors/list.go
+https://github.com/qiuchengw/go-user/blob/master/frontend/errors/list.go
 ## token
 
 eyJzaWQiOiJVLUhFVlZiSnR1OW1oa0pkV3h6XzBDbEo4TDFEemllYSIsInRva2VuX2lkIjoiODExZTNmMGJhYTc1ZmNjOGRjMWVkOGU3MDY4YzA5ZjAiLCJhdXRoX3R5cGUiOiJwaG9uZV9wYXNzd29yZCIsImV4cF9hY2Nlc3MiOjE0NDQ3ODk1NDksImV4cF9yZWZyZXNoIjoxNDc2MzAyMjQ1fQ.a3850335036e76c200aef18ce0280d9807fb4a6ee96e19a9c9792666146dbfb0

@@ -3,7 +3,7 @@ package mp
 import (
 	"github.com/chanxuehong/wechat/mp/user/oauth2"
 
-	"github.com/aiyi/go-user/config"
+	"github.com/qiuchengw/go-user/config"
 )
 
 var oauth2Config = oauth2.NewOAuth2Config(

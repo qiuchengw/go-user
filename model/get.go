@@ -3,7 +3,7 @@ package model
 import (
 	"database/sql"
 
-	"github.com/aiyi/go-user/db"
+	"github.com/qiuchengw/go-user/db"
 )
 
 // user 基本信息
