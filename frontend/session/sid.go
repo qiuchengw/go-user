@@ -1,22 +1,17 @@
 package session
 
 import (
-	"github.com/chanxuehong/util/id"
+	"github.com/qiuchengw/go-user/util"
 )
 
 // ^[A-Za-z0-9_-]+$
 func NewSessionId() (sid string, err error) {
-	sidx, err := id.NewSessionId()
-	if err != nil {
-		return
-	}
-	sid = string(sidx)
-	return
+	return util.NewID()
 }
 
 // ^temp\.[A-Za-z0-9_-]+$
 func NewGuestSessionId() (sid string, err error) {
-	sidx, err := id.NewSessionId()
+	sidx, err := NewSessionId()
 	if err != nil {
 		return
 	}

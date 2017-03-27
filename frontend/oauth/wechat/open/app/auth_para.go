@@ -1,7 +1,6 @@
 package app
 
 import (
-	"github.com/chanxuehong/util/random"
 	"github.com/gin-gonic/gin"
 	"github.com/golang/glog"
 
@@ -9,6 +8,7 @@ import (
 	"github.com/qiuchengw/go-user/frontend/errors"
 	"github.com/qiuchengw/go-user/frontend/session"
 	"github.com/qiuchengw/go-user/frontend/token"
+	"github.com/qiuchengw/go-user/util"
 )
 
 // 获取请求用户授权的参数(appid, state, scope)
@@ -17,7 +17,7 @@ func AuthParaHandler(ctx *gin.Context) {
 	tk := ctx.MustGet("sso_token").(*token.Token)
 	ss := ctx.MustGet("sso_session").(*session.Session)
 
-	ss.OAuth2State = string(random.NewRandomEx())
+	ss.OAuth2State = string(util.NewRandom())
 	if err := session.Set(tk.SessionId, ss); err != nil {
 		glog.Errorln(err)
 		ctx.JSON(200, errors.ErrInternalServerError)

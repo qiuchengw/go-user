@@ -49,7 +49,7 @@ type Config struct {
 }
 
 func loadConfig(cfg *Config) (err error) {
-	configBytes, err := ioutil.ReadFile("config/config.json.bak")
+	configBytes, err := ioutil.ReadFile("config/config.json")
 	if err != nil {
 		return
 	}

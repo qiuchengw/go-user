@@ -1,11 +1,11 @@
 package token
 
 import (
-	"github.com/chanxuehong/util/random"
+	"github.com/qiuchengw/go-user/util"
 )
 
 func NewTokenId() string {
-	return string(random.NewRandomEx())
+	return string(util.NewRandom())
 }
 
 func ExpirationAccess(timestamp int64) int64 {

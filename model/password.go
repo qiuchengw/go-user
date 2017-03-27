@@ -4,18 +4,18 @@ import (
 	"crypto/hmac"
 	"crypto/sha1"
 
-	"github.com/chanxuehong/util/random"
+	"github.com/qiuchengw/go-user/util"
 )
 
 var PasswordSalt = NewSalt() // 无主地 salt, 用于安全授权
 
 func NewSalt() []byte {
-	rd := random.NewRandom()
-	return rd[:]
+	rd := util.NewRandom()
+	return []byte(rd)
 }
 
 func NewPasswordTag() string {
-	return string(random.NewRandomEx())
+	return string(util.NewRandom())
 }
 
 func EncryptPassword(password, salt []byte) []byte {
